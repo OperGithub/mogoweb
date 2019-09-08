@@ -128,3 +128,71 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
     background-color: #f38181;
 }
+/* about */
+.about {
+    padding-bottom: 68px;
+}
+.about__suptitle {
+    font-family: KaushanScript Regular;
+    font-size: 21px;
+    color: #333333;
+    text-align: center;
+    margin-top: 74px;
+    margin-bottom: 10px;
+}
+.about__title {
+    font-family: Montserrat Bold;
+    font-size: 23px;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+}
+.about__title:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    max-width: 60px;
+    background-color: #f38181;
+    margin: 28px auto 28px;
+}
+.about__text {
+    font-family: Roboto Regular;
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+    width: 100%;
+    max-width: 945px;
+    margin-bottom: 80px;
+}
+.about__img {
+    height: 200px;
+    width: 304px;
+    margin-right: 25px;
+}
+.about__img:hover {
+    background: #95e1d3;
+    cursor: pointer;
+}
+/* Facts */
+.facts {
+    background: #95e1d3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.facts__number {
+    font-family: Montserrat Bold;
+    font-size: 58px;
+    color: #ffffff;
+    text-align: center;
+}
+.facts__title {
+    font-family: Montserrat Regular;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.facts__margin {
+    margin-right: 80px;
+}
